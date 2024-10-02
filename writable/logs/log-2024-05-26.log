@@ -1,0 +1,8 @@
+CRITICAL - 2024-05-26 03:36:50 --> shell_exec(): Unable to execute 'mysqldump -P 3306 -h srv1064.hstgr.io -u u695808356_root --password=&quot;Test#2023&quot; u695808356_etic_system_db causa_principal clientes datos_reporte equipos estatus_color_text estatus_inspeccion estatus_inspeccion_det fabricantes fallas fases grupos grupos_sitios historial_problemas inspecciones inspecciones_det linea_base problemas severidades sitios tipo_ambientes tipo_fallas tipo_inspecciones tipo_prioridades ubicaciones usuarios --where=&quot;Id_Inspeccion='WXVHBS58-CEQM-14RI-N23O-AYZUG6JPL9KD' OR Id_Inspeccion='flag_export' OR Id_Inspeccion IS NULL &quot; OR Id_Sitio='5CISYQVF-46OG-MT9K-JHPW-1NLUDZ2BE7A3' OR Id_Sito='flag_export' &gt;/home/u695808356/domains/etic-system.online/public_html/public/Archivos_ETIC/bd_exportar_inspecciones/ETIC_2003_GRUPOBACHOCOMÉXICO_SITIOTOLUCA.sql'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(287): shell_exec()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->exportar_inspeccion_db()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

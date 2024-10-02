@@ -1,0 +1,7 @@
+CRITICAL - 2024-06-25 23:17:58 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, null given, called in /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Grupos.php on line 27
+#0 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Grupos.php(27): CodeIgniter\BaseModel->findAll()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Grupos->show()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

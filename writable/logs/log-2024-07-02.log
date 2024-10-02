@@ -1,0 +1,390 @@
+ERROR - 2024-07-02 03:33:50 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 03:33:50 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(441): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 03:35:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 03:35:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(441): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 03:37:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 03:37:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(441): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:01:26 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:01:26 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(441): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-02 17:03:59 --> syntax error, unexpected variable "$inspeccionesMdl"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-07-02 16:07:31 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:07:31 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:08:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:08:55 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:13:19 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:13:19 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:20:18 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:20:18 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:20:41 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:20:41 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:20:52 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:20:52 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:21:17 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:21:17 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:21:38 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:21:38 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:22:11 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:22:11 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:22:41 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:22:41 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:23:35 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:23:35 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(169): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:26:18 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:26:18 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(170): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:27:37 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:27:37 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(171): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:29:43 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:29:43 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(158): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:31:37 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:31:37 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(155): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-07-02 16:31:46 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+CRITICAL - 2024-07-02 16:31:46 --> Table 'u695808356_etic_system_db.FALLAS' doesn't exist
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/u695808356/domains/etic-system.online/public_html/app/Models/ProblemasMdl.php(154): CodeIgniter\BaseModel->findAll()
+#7 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(442): App\Models\ProblemasMdl->getProblemas_Sitio()
+#8 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#9 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-02 16:39:47 --> Class "App\Controllers\Xlsx" not found
+#0 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-07-02 16:41:42 --> fopen(/home/u695808356/domains/etic-system.online/public_html/Archivos_ETIC/inspecciones/ETIC_LISTADO_DE_PROBLEMAS_SITIO TOLUCA_INSPECCION_3502.Xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php(128): fopen()
+#2 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(547): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle()
+#3 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(495): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-02 16:42:12 --> fopen(/home/u695808356/domains/etic-system.online/public_html/Archivos_ETIC/inspecciones/ETIC_LISTADO_DE_PROBLEMAS_SITIO TOLUCA_INSPECCION_3502.Xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php(128): fopen()
+#2 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(547): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle()
+#3 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(494): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-02 16:45:49 --> fopen(/home/u695808356/domains/etic-system.online/public_htmlpublic/Archivos_ETIC/inspecciones/ETIC_LISTADO_DE_PROBLEMAS_SITIO TOLUCA_INSPECCION_3502.Xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php(128): fopen()
+#2 /home/u695808356/domains/etic-system.online/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(547): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle()
+#3 /home/u695808356/domains/etic-system.online/public_html/app/Controllers/Inspecciones.php(494): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(824): App\Controllers\Inspecciones->generarReporteListaProblemasExcel()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-02 17:47:53 --> syntax error, unexpected variable "$writer"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-07-02 17:48:16 --> syntax error, unexpected variable "$writer"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-07-02 17:48:46 --> syntax error, unexpected variable "$writer"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-07-02 17:49:17 --> syntax error, unexpected variable "$writer"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-07-02 17:49:27 --> syntax error, unexpected variable "$writer"
+#0 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u695808356/domains/etic-system.online/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(789): class_exists()
+#4 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/u695808356/domains/etic-system.online/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u695808356/domains/etic-system.online/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
